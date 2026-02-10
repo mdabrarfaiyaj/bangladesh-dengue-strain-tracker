@@ -131,6 +131,7 @@ rsconnect::deployApp(
 All sequences are from peer-reviewed publications deposited in NCBI GenBank:
 1. **Nasif et al. (2024)** - MRA 00162-24: 12 Dhaka sequences, Link: https://journals.asm.org/doi/10.1128/mra.00162-24
 2. **Hossain et al. (2025)** - MRA 00023-25: 1 Chittagong sequence  ,Link: https://journals.asm.org/doi/10.1128/mra.00023-25
+3. **Hossain et al. (2025)** - Rest of the Information comes from this paper. Link : https://pubmed.ncbi.nlm.nih.gov/40432700/
 
 ---
 
