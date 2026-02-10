@@ -1,7 +1,7 @@
 #!/usr/bin/env Rscript
 # Bangladesh Dengue Tracker - Analysis Script
 # Processes all 13 sequences
-# Copyright © Md Abrar Faiyaz, 2026
+# Copyright © Md. Abrar Faiyaj, 2026
 
 cat("==============================================\n")
 cat("Bangladesh Dengue Tracker\n")
@@ -203,3 +203,4 @@ cat("Next step: Launch dashboard\n")
 cat("  > library(shiny)\n")
 cat("  > runApp('app.R')\n")
 cat("==============================================\n")
+
