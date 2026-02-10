@@ -8,7 +8,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 **Complete Production-Ready Dashboard**  
-Copyright © Md Abrar Faiyaj,2026 – Open-source under the MIT License
+Copyright © Md. Abrar Faiyaj,2026 – Open-source under the MIT License
 
 **🌐 Live Dashboard**
 
