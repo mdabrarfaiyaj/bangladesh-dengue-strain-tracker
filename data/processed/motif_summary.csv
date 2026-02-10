@@ -1,0 +1,6 @@
+"Motif","Description","Total_Occurrences","Sequences_With_Motif","Avg_Per_Sequence"
+"ATG","Translation start codon",2575,13,198.08
+"GAC","Codon for aspartic acid in envelope (E) protein",1848,13,142.15
+"AGAGA","Part of 3' UTR elements",316,13,24.31
+"CACAG","Conserved pentanucleotide in 3' stem-loop",302,13,23.23
+"AATAAA","Polyadenylation signal",16,13,1.23

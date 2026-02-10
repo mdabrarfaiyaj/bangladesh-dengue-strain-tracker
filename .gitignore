@@ -1,0 +1,11 @@
+.Rhistory
+.RData
+.Rproj.user
+*.Rproj
+rsconnect/
+.shinyapps/
+data/processed/*.fasta
+plots/*.png
+.DS_Store
+Thumbs.db
+*.log
