@@ -133,10 +133,10 @@ All sequences are from peer-reviewed publications deposited in NCBI GenBank:
 
 ## ✅ Features Implemented
 
-- [x] All 13 sequences analyzed
-- [x] PP325839.1 included
+- [x] All 13 sequences analyzed (PQ657766.1, PP309840-PP309850, PP325839.1)
+- [x] Executive Summary
 - [x] Professional visualizations
-- [x] No overlapping text
+- [x] Genomic Analysis of DENV-2 serotype
 - [x] Interactive maps
 - [x] Phylogenetic tree
 - [x] Epidemiological data
@@ -144,6 +144,7 @@ All sequences are from peer-reviewed publications deposited in NCBI GenBank:
 - [x] Temporal trends
 - [x] Motif analysis
 - [x] Complete data table
+- [x] Data Source
 - [x] Copyright footer
 
 - - -
