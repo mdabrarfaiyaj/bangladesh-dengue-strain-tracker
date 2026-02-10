@@ -1,23 +1,29 @@
-# Bangladeshi Dengue Strain Tracker
+# Bangladeshi Dengue Strain Tracker 
+
+**Interactive R Shiny Dashboard** for analyzing dengue virus sequences from the 2023 Bangladesh outbreak
+
+[![R](https://img.shields.io/badge/R-≥4.2-276DC3?style=flat&logo=r&logoColor=white)](https://www.r-project.org/)
+[![Shiny](https://img.shields.io/badge/Shiny-Dashboard-blue?style=flat&logo=shiny&logoColor=white)](https://shiny.posit.co/)
+[![Bioconductor](https://img.shields.io/badge/Bioconductor-Used-1A5490?style=flat)](https://bioconductor.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 **Complete Production-Ready Dashboard**  
-Copyright © Md Abrar Faiyaj, 2026 | MIT License
-
+Copyright © Md Abrar Faiyaj,2026 – Open-source under the MIT License
+Live Dashboard: https://u3j9z9-md0abrar-faiyaj.shinyapps.io/bangladesh-denv-tracker/
 ---
 
-## 🚀 QUICK START (3 STEPS)
+## 🚀 Quick Start (3 Steps)
 
-### Step 1: Install Packages
+### 1. Install Dependencies (once)
 
 ```r
-# Run this ONCE
 source("install_packages.R")
 ```
 
 ### Step 2: Process Data
 
 ```r
-# Run this to generate CSV files
+#analyze the data
 source("analyze_sequences.R")
 ```
 
@@ -45,18 +51,17 @@ That's it! Your dashboard should open in a browser.
 ## 📁 Project Structure
 
 ```
-bangladesh_dengue_tracker/
-├── app.R                      ← Main dashboard
-├── analyze_sequences.R        ← Data processor
-├── install_packages.R         ← Package installer
-├── README.md                  ← This file
+bangladesh-dengue-strain-tracker/
+├── app.R                     # Main Shiny dashboard
+├── analyze_sequences.R       # QC, motif analysis & data processing
+├── install_packages.R        # Installs CRAN + Bioconductor packages
+├── README.md                 # This file
+├── LICENSE                   # MIT License
 ├── data/
-│   ├── bd_multiple_sequence_raw.fasta  ← Your 13 sequences
-│   └── processed/
-│       ├── qc_summary.csv              ← Generated
-│       ├── motif_matches.csv           ← Generated
-│       └── motif_summary.csv           ← Generated
-└── plots/                     ← Generated figures
+│   └── BD Multiple Raw Sequence/
+│       └── bd_multiple_sequence_raw.fasta   # 13 BD sequences (gitignored)
+└── plots/                    # Generated figures (gitignored)
+    └── data/processed/       # CSV outputs (gitignored)
 ```
 
 ---
@@ -85,7 +90,7 @@ After Step 2, check terminal output:
   1. PQ657766.1
   2. PP309840.1
   ...
-  13. PP325839.1  ← Should be here!
+  13. PP325839.1  
 ```
 
 After Step 3, check dashboard Data Table tab - should show 13 rows.
@@ -120,10 +125,9 @@ rsconnect::deployApp(
 ---
 
 ## 📚 Data Sources
-
-1. **Nasif et al. (2024)** - MRA 00162-24: 12 Dhaka sequences
-2. **Hossain et al. (2025)** - MRA 00023-25: 1 Chittagong sequence  
-3. **Hossain et al. (2025)** - HSR e70852: Epidemiological data
+All sequences are from peer-reviewed publications deposited in NCBI GenBank:
+1. **Nasif et al. (2024)** - MRA 00162-24: 12 Dhaka sequences, Link: https://journals.asm.org/doi/10.1128/mra.00162-24
+2. **Hossain et al. (2025)** - MRA 00023-25: 1 Chittagong sequence  ,Link: https://journals.asm.org/doi/10.1128/mra.00023-25
 
 ---
 
@@ -142,8 +146,11 @@ rsconnect::deployApp(
 - [x] Complete data table
 - [x] Copyright footer
 
----
+- - -
+## 📚 How to Cite This Work
+If you use or reference this dashboard:
+Md. Abrar Faiyaj (2026). Bangladeshi Dengue Strain Tracker 2023. GitHub repository: https://github.com/mdabrarfaiyaj/bangladesh-dengue-strain-tracker
+- - -
+## Open-source under the MIT License
+Last updated: 10th February, 2026
 
-**Ready to publish on GitHub!**  
-**Ready to deploy on shinyapps.io!**  
-**Ready for your portfolio!**
